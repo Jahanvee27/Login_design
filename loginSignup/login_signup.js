@@ -13,5 +13,8 @@
       else if(id=="replace_signup"){
         document.getElementById('signup_form').innerHTML = document.getElementById(param_div_id).innerHTML;
       }
+      else if(id=="forget_Password"){
+        document.getElementById('login_form').innerHTML = document.getElementById(param_div_id).innerHTML;
+      }
     }
   
